@@ -1,0 +1,21 @@
+<form [formGroup]="reacForm">
+  <div class="form-group">
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" formControlName="name" required />
+  </div>
+  <div class="form-group">
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code" formControlName="code" required />
+  </div>
+  <div class="form-group">
+    <label for="price">Price:</label>
+    <input
+      type="number"
+      id="price"
+      name="price"
+      formControlName="price"
+      required
+    />
+  </div>
+  <button type="submit" class="btn">Create</button>
+</form>

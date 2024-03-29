@@ -4,4 +4,5 @@ export interface Stock {
   code?: string;
   price: string;
   previousPrice: string;
+  exchange?: string;
 }
